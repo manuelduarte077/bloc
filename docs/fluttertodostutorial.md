@@ -14,7 +14,7 @@
 - [BlocProvider](/flutterbloccoreconcepts?id=blocprovider), a Flutter widget which provides a bloc to its children.
 - [BlocBuilder](/flutterbloccoreconcepts?id=blocbuilder), a Flutter widget that handles building the widget in response to new states.
 - [BlocListener](/flutterbloccoreconcepts?id=bloclistener), a Flutter widget that handlers performing side effects in response to state changes.
-- [RespositoryProvider](/flutterbloccoreconcepts?id=respositoryprovider), a Flutter widget to provide a repository to its children.
+- [RepositoryProvider](/flutterbloccoreconcepts?id=repositoryprovider), a Flutter widget to provide a repository to its children.
 - [Equatable](/faqs?id=when-to-use-equatable) to prevent unnecessary rebuilds.
 - [MultiBlocListener](/flutterbloccoreconcepts?id=multibloclistener), a Flutter widget that reduces nesting when using multiple BlocListeners.
 
@@ -48,7 +48,7 @@ We can then replace the contents of `pubspec.yaml` with:
 Finally, we can install all the dependencies:
 
 ```sh
-very_good packages get —-recursive
+very_good packages get --recursive
 ```
 
 ## Project Structure
